@@ -13,7 +13,7 @@ orders as (
 
     select * from {{ ref('stg_orders') }}
 
-)
+),
 
 customer_orders as (
 
